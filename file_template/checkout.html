@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Giỏ hàng</title>
+    <link rel="stylesheet" href="../view/css/index.css" />
+    <link rel="stylesheet" href="../view/css/base.css" />
+    <link rel="stylesheet" href="../view/css/reset.css" />
+    <link rel="stylesheet" href="../view/css/test.css">
+    <!-- font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@600&family=Inter:wght@200;300;600&display=swap" rel="stylesheet">
+    <!-- end font -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+    />
+  </head>
+
+  <body>
+  <div class="wrapper">
+        <header class="header bt">
+            <div class="header-main">
+              <span class="menu" title="Điều hướng">
+                <span><i class="fa-solid fa-bars" style="color: #000000"></i></span>
+                <span>MENU</span>
+              </span>
+    
+              <div class="header-logo">
+    
+                <img src="view/img/IPUN.svg" alt="" />
+              </div>
+    
+              <div class="header-order">
+                <div class="header-order_link"><a href="#">ĐẶT BÁNH</a></div>
+                <div class="header-order_link cart">
+                  <a href="">
+                    <span><img src="view/img/cart.svg" alt=""></i></span>
+                    <span>Giỏ</span>
+                  </a>
+                </div>
+              </div>
+            </div>
+    
+    
+            <div class="slide bt bb">
+              <span>GIAO HÀNG TẬN NƠI TẠI HÀ NỘI</span>
+              <span>GIAO HÀNG TẬN NƠI TẠI HÀ NỘI</span>
+              <span>GIAO HÀNG TẬN NƠI TẠI HÀ NỘI</span>
+              <span>GIAO HÀNG TẬN NƠI TẠI HÀ NỘI</span>
+              <span>GIAO HÀNG TẬN NƠI TẠI HÀ NỘI</span>
+              <span>GIAO HÀNG TẬN NƠI TẠI HÀ NỘI</span>
+            </div>
+          </header>
+
+          <!-- start main -->
+          <main>
+            <!-- Phần thông tin giỏ hàng -->
+            <section class="pay grid-2 bb">
+
+                <!-- Thông tin của người mua -->
+                <div class="checkout-left">
+                  <div>
+                    <h1>Thông tin giao hàng</h1>
+
+                    <!-- Form nhập thông tin của người mua --> 
+
+                    <form action="">
+                      <div class="form">
+                        <input class="input" placeholder="Họ tên" value="Phi Nguyễn" required="" type="text">
+                        <span class="input-border"></span>
+                      </div>
+
+                      <div class="gap-50px mt-6 grid-2">
+                        <div class="form">
+                          <input class="input" placeholder="Email" value="phinguyenq12@gmail.com" required="" type="text">
+                          <span class="input-border"></span>
+                        </div>
+                        <div class="form">
+                          <input class="input" placeholder="Số điện thoại" value="0775183622" required="" type="text">
+                          <span class="input-border"></span>
+                        </div>
+                      </div>
+
+                      <div class="form mt-6">
+                        <input class="input" placeholder="Địa chỉ" value="285/33/11 tổ 5 kp8 đường tân chánh hiệp 10" required="" type="text">
+                        <span class="input-border"></span>
+                      </div>
+
+                      <div class="gap-50px mt-6 grid-2">
+                        <div class="">
+                          <select name="" id="">
+                            <option selected value="">Tỉnh / Thành Phố</option>
+                            <option value="">Hồ Chí Minh</option>
+                          </select>
+                         
+                        </div>
+
+                        <!--  -->
+                        <div class="">
+                          <select name="" id="">
+                            <option selected value="">Quận / Huyện</option>
+                            <option value="">Quận 12</option>
+                          </select>
+                         
+                        </div>
+                        
+                      </div>
+                                <!-- Phần chọn địa chỉ phường xã -->
+                      <div class="mt-6">
+                        <select name="" id="">
+                          <option selected value="">Phường / Xã</option>
+                          <option value="">Tân Chánh Hiệp</option>
+                        </select>
+                      </div>
+                
+                      <button class="">Đặt hàng</button>
+                    </form>
+
+
+                  </div>
+                </div>
+
+                <!-- Phần giỏ hành -->
+                <div class="checkout-right bl " >
+                     <h1>Giỏ hàng</h1>
+
+                     <!-- Phần sản phẩm -->
+                    <div class="checkout-right-box grid-3 bb">
+                            <div style="margin-right: 20px;">
+                                <img src="view/img/cake22.png" alt="" width="200">
+                            </div>
+                            <div>
+                                <span class="checkout-right-name">bánh chocolate</span>
+                                <span class="flex-jus-center" >
+                                    <button class="minus btn " >-</button>
+                                    <span class="number ">1</span>
+                                    <button class="plus btn">+</button>
+                                </span>
+                                <div class="flex-col" style="width: 100%;">
+                                    <button class=""><a href="">Xóa</a></button> 
+                                </div>
+                            </div>
+                            <span class="pay-price">700 000 đ</span>
+                    </div>
+
+                    <!-- Phần sản phẩm -->
+                    <div class="checkout-right-box grid-3 bb">
+                      <div style="margin-right: 20px;">
+                          <img src="view/img/cake22.png" alt="" width="200">
+                      </div>
+                      <div>
+                          <span class="checkout-right-name">bánh chocolate</span>
+                          <span class="flex-jus-center" >
+                              <button class="minus btn " >-</button>
+                              <span class="number ">1</span>
+                              <button class="plus btn">+</button>
+                          </span>
+                          <div class="flex-col" style="width: 100%;">
+                              <button class=""><a href="">Xóa</a></button> 
+                          </div>
+                      </div>
+                      <span class="pay-price">700 000 đ</span>
+              </div>
+
+              <!-- Phần sản phẩm -->
+              <div class="checkout-right-box grid-3 bb">
+                <div style="margin-right: 20px;">
+                    <img src="view/img/cake22.png" alt="" width="200">
+                </div>
+                <div>
+                    <span class="checkout-right-name">bánh chocolate</span>
+                    <span class="flex-jus-center" >
+                        <button class="minus btn " >-</button>
+                        <span class="number ">1</span>
+                        <button class="plus btn">+</button>
+                    </span>
+                    <div class="flex-col" style="width: 100%;">
+                        <button class=""><a href="">Xóa</a></button> 
+                    </div>
+                </div>
+                <span class="pay-price">700 000 đ</span>
+        </div>
+
+                              
+
+                              <!-- Phần tính tổng đơn hàng -->
+                              <div class="tong grid-2">
+                                <span>Tổng</span> <span>1.400.000</span>
+                              </div>
+                </div>
+            </section>
+
+          </main>    <!-- end main -->
+    
+
+    
+
+        <footer class="footer relative ">
+          <div class="footer-ul">
+            <div class="footer-ul-list grid-3"> <!--chia cột -->
+              <div class="footer-ul-list-item">  <!--Phần tử-->
+                <div class="footer-ul-list_first">MENU</div>
+                <ul>
+                  <li>Về Ipun</li>
+                  <li>Sản phẩm</li>
+                  <li>Cách mua hàng</li>
+                  <li>Câu hỏi thường gặp</li>
+                </ul>
+              </div>
+
+              <div class="footer-ul-list-item"> <!--Phần tử-->
+                <div class="footer-ul-list_first">HOTLINE</div>
+                <ul>
+                  <li></li>
+                </ul>
+              </div>
+
+              <div class="footer-ul-list-item"> <!--Phần tử-->
+                <div class="footer-ul-list_first">FOLLOW US ON</div>
+                <ul>
+                  <li></li>
+                </ul>
+              </div>
+            </div>
+            
+          </div>
+
+          <div class="footer-logo">
+            <img src="view/img/IPUN.svg" alt="" width="100%">
+          </div>
+        </footer>
+  </div>
+</body>
+</html>

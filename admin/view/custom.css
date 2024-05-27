@@ -1,0 +1,63 @@
+.w-full{
+    width: 100%;
+}
+.h-auto{
+    height: 100%;
+}
+
+
+.warning{
+    padding: 1rem;
+    width: 300px;
+    position: fixed;
+    right: 40px;
+    top: 50px;
+    z-index: 99;
+    font-weight: bolder;
+}
+.warning1{
+    padding: 1rem;
+    width: 300px;
+    position: fixed;
+    right: 40px;
+    top: 60px;
+    z-index: 99;
+    font-weight: bolder;
+}
+.eror{
+    color: currentColor;
+    background-color: rgb(223, 65, 65);
+}
+.success{
+    color: currentColor;
+    background-color: rgb(0, 176, 85);
+}
+
+.img-relative{
+    position: relative;
+}
+.img-relative img{
+    width: 100%;
+    height: auto;
+    border: 1px solid black;
+    position: absolute;
+    top: 30px;
+    right: 0;
+}
+.text-end{
+    text-align: end;
+}
+.text-start{
+    text-align: start;
+}
+.text-center{
+    text-align: center;
+}
+.table td{
+    padding-right: 10px;
+font-size: 1rem;
+}
+.flex{
+    display: flex;
+    justify-content: space-around;
+}
